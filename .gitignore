@@ -61,3 +61,10 @@ backend/.env.*
 
 # Local overrides
 *.local
+backend/faiss_cache*/
+backend/sku_index/
+backend/*.pkl
+frontend/public/*.json
+*.faiss
+*.npy
+*.csv
