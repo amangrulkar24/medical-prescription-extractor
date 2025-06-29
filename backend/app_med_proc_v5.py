@@ -10,6 +10,8 @@ import uuid
 import groq
 import pickle
 from matcher import validate_medicine_names, validate_group_terms
+from dotenv import load_dotenv
+load_dotenv()
 
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -142,7 +144,7 @@ Rules:
   - “MRI brain”, “CT abdomen”, “X-ray chest” under `radiology`
   - “ECG”, “2D Echo”, “NCV”, “Endoscopy” under `procedures`
   - Ignore physiotherapy from including in procedures
-- Include only new tests recommended *after* the medicine list, not those that appear as prior reports.
+  - Include only new lab test/procedure/radiology test recommended *after* the medicine list or in the advice section, not those that appear as prior reports.
 - In precautions:
   - Food or lifestyle-related → `non-medical`
   - Treatment or medicine-specific → `medical`

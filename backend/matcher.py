@@ -11,6 +11,8 @@ from difflib import get_close_matches
 import logging
 from rapidfuzz import fuzz
 import groq
+from dotenv import load_dotenv
+load_dotenv()
 
 # === Logger ===
 logging.basicConfig(level=logging.INFO)
@@ -42,6 +44,15 @@ ABBREVIATION_EXPANSION = {
     "r": "right",
     "l": "left",
     "ncv": "nerve conduction velocity",
+    "kft": "kidney function test",
+    "lft": "liver function test",
+    "cbc": "complete blood count",
+    "tft": "thyroid function test",
+    "renal": "renal function test",
+    "nct": "nerve conduction test",
+    "ncs": "nerve conduction study",
+    "nerve conduction": "nerve conduction study",
+    "nerve conduction velocity": "nerve conduction study",  
     "emg": "electromyography",
     "mri": "magnetic resonance imaging",
     "ct": "computed tomography",

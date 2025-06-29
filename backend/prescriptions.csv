@@ -3514,3 +3514,816 @@ R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
 
 
  """
+APT-20250608-154746-8e5322,Kalmesh,69.0,male,"{""patient"": {""name"": ""Kalmesh"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""FT4(RANBAXY)"", ""sku_code"": ""C6916"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""cardiac test""}, {""matched"": ""echo"", ""sku_code"": ""PCAR6350"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Procedure"", ""procedure_name"": ""2D Echo"", ""procedure_type"": ""cardiac test""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-08T15:47:46.821160,"""69 yrs old gentleman kalmesh
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250608-192739-7c6657,ram,69.0,male,"{""patient"": {""name"": ""ram"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""120"", ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""120"", ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""FT4(RANBAXY)"", ""sku_code"": ""C6916"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-08T19:27:39.870378,"""69 yrs old gentleman ram
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250614-221333-b7dbc1,Umesh,69.0,male,"{""patient"": {""name"": ""Umesh"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""120"", ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""120"", ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""60"", ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""FT4(RANBAXY)"", ""sku_code"": ""C6916"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""electrocardiogram""}, {""matched"": ""echo"", ""sku_code"": ""PCAR6350"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""Echo"", ""procedure_type"": ""echocardiogram""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-14T22:13:33.885761,"""69 yrs old gentleman umesh
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250620-133400-0d5c6c,Mr X,42.0,male,"{""patient"": {""name"": ""Mr X"", ""age"": 42, ""gender"": ""male"", ""diagnosis"": ""Post stroke residual left lower limb weakness with worsening weakness over last 6 months, Restless leg syndrome""}, ""medicines"": [{""medicine_type"": ""capsule"", ""medicine_name"": ""ECOSPRIN-AV 150 MG CAP"", ""medicine_dosage"": ""75/20 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at bedtime"", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Ecosprin AV"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000089302""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""TELMA 40 MG TABLET 10'S, GLENMARK"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Telma"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000092656""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""KEPPRA 500 MG TAB 10S"", ""medicine_dosage"": ""500 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 56, ""medicine_quantity"": 112, ""raw_medicine_name"": ""Keppra"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000090324""}, {""medicine_type"": ""capsule"", ""medicine_name"": ""LIOFEN XL 10 MG CAP"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at bedtime"", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Liofen XL"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000099147""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PREGABID CR 82.5 TAB, 10'S, INTAS PHARMA"", ""medicine_dosage"": ""82.5 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at bedtime"", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Pregabid CR"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000124627""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PREGABID NT 15 TAB 15S INTAS PHARMA"", ""medicine_dosage"": ""75/10 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at bedtime"", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Pregabid NT"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000109366""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""REGEN-CD3 TABLET 10'S,ABS PHARMACEUTICAL"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 56, ""medicine_quantity"": 56, ""raw_medicine_name"": ""Regen CD3"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000127289""}], ""labtests"": [], ""radiology"": [{""matched"": ""MRI brain"", ""sku_code"": ""DRAD6691"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Radiology"", ""test_name"": ""MRI brain with MR angio head & neck vessels TOF"", ""test_type"": ""MRI""}], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": ""lower limb strengthening exercises, Restless leg syndrome exercises, BP record""}, ""followup"": {""next_followup"": ""after 8 weeks""}}",2025-06-20T13:34:00.999792,"""mr x age 42, male Post stroke residual left lower limb weakness with worsening weakness over last 6 months
+Restless leg syndrome
+
+Comorbidity
+1. Right MCA ischemic stroke, 2016
+2. HTN
+
+Investigation
+1. MRI brain with MR angio head & neck vessels TOF
+
+Advise
+1. Cap ecosprin AV 75/20 mg @ bedtime
+2. Tab telma 40 mg od 
+3. Tab keppra 500 mg bd
+4. Cap liofen XL 10 mg @ bedtime 
+5. Tab Pregabid CR 82.5 mg @ bedtime
+           or
+    Tab pregabid NT 75/10 mg @ bedtime 
+6. Tab regen cd3 od
+
+Robotic gloves 2 -3 hours a day
+Review after 8 weeks/sos with BP record 
+lower limb strengthening exercises
+Restless leg syndrome exercises
+ """
+APT-20250620-135534-1a4c31,,64.0,Female,"{""patient"": {""name"": """", ""age"": 64, ""gender"": ""Female"", ""diagnosis"": ""Hypertensive""}, ""medicines"": [], ""labtests"": [], ""radiology"": [{""matched"": ""CT"", ""sku_code"": ""CONTRAST"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Radiology"", ""test_name"": ""CT CAG"", ""test_type"": ""CT scan""}], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""Electrocardiogram""}, {""matched"": ""R. V. G INTRA ORAL PERIAPICAL X- Ray"", ""sku_code"": ""PDEN6412"", ""match_confidence"": 0.3833, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""Right leg EVLT"", ""procedure_type"": ""Endovenous laser treatment""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T13:55:34.894587,"""64 year old Female patient
+ hypertensive/Non diabetic
+No H/o CAD
+Allergy: NIL
+FAMILY H/O CAD+
+
+Came for surgical fitness: right leg EVLT 
+No angina/breathlessness
+No major cardiovascular complaints
+
+
+CVS-NAD
+BP-130/80
+CT CAG: 
+Total calcium score is 0.
+No obvious coronary artery stenosis. CADRADS 0.
+Acute angle origin of right coronary artery. No obvious stenosis.
+
+ADV:
+
+RCRI:O
+CAN BE TAKEN UP FOR PROCEDURE 
+3.9% RISK OF MACE 
+
+OPD TIMINGS:
+MON/WED/FRIDAY   : 2PM TO 6PM
+TUESDAY/THURSDAY/SATURDAY: 9AM TO 2 PM 
+   
+
+
+
+
+
+ 
+
+ """
+APT-20250620-135620-80697f,,27.0,MALE,"{""patient"": {""name"": """", ""age"": 27, ""gender"": ""MALE"", ""diagnosis"": ""NEPHROTIC SYNDROME""}, ""medicines"": [], ""labtests"": [], ""radiology"": [], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""ECG""}, {""matched"": ""echo"", ""sku_code"": ""PCAR6350"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Procedure"", ""procedure_name"": ""2D Echo"", ""procedure_type"": ""2D Echo""}, {""matched"": ""HOLTER"", ""sku_code"": ""PCAR6356"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Procedure"", ""procedure_name"": ""HOLTER MONITORING"", ""procedure_type"": ""HOLTER MONITORING""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T13:56:20.702918,"""27 MALE
+
+NEPHROTIC SYNDROME
+
+REC EPISODE OF PALPITATION- 2-3 MONTH 
+
+2D ECHO: NORMAL 
+
+
+72 HOURS -HOLTER MONITORING: NORMAL
+
+
+ADV:
+
+REASSURANCE
+
+ECG DURING THE EPISODE 
+
+OPD TIMINGS:
+MON/WED/FRIDAY   : 2PM TO 6PM
+TUESDAY/THURSDAY/SATURDAY: 9AM TO 2 PM"""
+APT-20250620-135844-de7540,mr e,27.0,MALE,"{""patient"": {""name"": ""mr e"", ""age"": 27, ""gender"": ""MALE"", ""diagnosis"": ""NEPHROTIC SYNDROME""}, ""medicines"": [], ""labtests"": [], ""radiology"": [], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""procedure""}], ""precaution"": {""medical"": ""REASSURANCE"", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T13:58:44.348870,"""27 MALE mr e
+
+NEPHROTIC SYNDROME
+
+REC EPISODE OF PALPITATION- 2-3 MONTH 
+
+2D ECHO: NORMAL 
+
+
+72 HOURS -HOLTER MONITORING: NORMAL
+
+
+ADV:
+
+REASSURANCE
+
+ECG DURING THE EPISODE 
+
+OPD TIMINGS:
+MON/WED/FRIDAY   : 2PM TO 6PM
+TUESDAY/THURSDAY/SATURDAY: 9AM TO 2 PM"""
+APT-20250620-150626-1ef1a4,,0.0,Female,"{""patient"": {""name"": """", ""age"": 0, ""gender"": ""Female"", ""diagnosis"": ""GDM, Hypothyroid""}, ""medicines"": [{""medicine_type"": ""injection"", ""medicine_name"": ""KINPHOS TABLET, ALEMBIC PHARMA"", ""medicine_dosage"": ""11 units"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at 10 pm"", ""medicine_duration"": ""7 days"", ""medicine_quantity"": 11, ""raw_medicine_name"": ""NPH"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000105501""}, {""medicine_type"": ""injection"", ""medicine_name"": ""KINPHOS TABLET, ALEMBIC PHARMA"", ""medicine_dosage"": ""12 units"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at 10 pm"", ""medicine_duration"": ""5 days"", ""medicine_quantity"": 12, ""raw_medicine_name"": ""NPH"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000105501""}, {""medicine_type"": ""injection"", ""medicine_name"": ""KINPHOS TABLET, ALEMBIC PHARMA"", ""medicine_dosage"": ""13 units"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""at 10 pm"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 13, ""raw_medicine_name"": ""NPH"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000105501""}, {""medicine_type"": ""injection"", ""medicine_name"": ""FIASP PENFILL 100IU/ML INJ (5X3ML), NOVO"", ""medicine_dosage"": ""7 units"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""before breakfast"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 7, ""raw_medicine_name"": ""FIASP"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000110589""}, {""medicine_type"": ""injection"", ""medicine_name"": ""FIASP PENFILL 100IU/ML INJ (5X3ML), NOVO"", ""medicine_dosage"": ""8 units"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""before breakfast, if sugar level more than 130 mg"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 8, ""raw_medicine_name"": ""FIASP"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000110589""}, {""medicine_type"": ""injection"", ""medicine_name"": ""FIASP PENFILL 100IU/ML INJ (5X3ML), NOVO"", ""medicine_dosage"": ""6 units"", ""medicine_frequency"": ""0-1-0"", ""dosage_advice"": ""before lunch"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 6, ""raw_medicine_name"": ""FIASP"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000110589""}, {""medicine_type"": ""injection"", ""medicine_name"": ""FIASP PENFILL 100IU/ML INJ (5X3ML), NOVO"", ""medicine_dosage"": ""6 units"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""before dinner"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 6, ""raw_medicine_name"": ""FIASP"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000110589""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""THYRONORM 12.5 MCG TAB (50)"", ""medicine_dosage"": ""112.5 mcg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""before breakfast"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""THYRONORM"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000092756""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""OROFER XT TAB"", ""medicine_dosage"": ""1 tab"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 2, ""raw_medicine_name"": ""OROFER XT"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091454""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RD-VIT CAP"", ""medicine_dosage"": ""1 tab"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""VIT C"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000099390""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""FOLVITE 5 MG TAB"", ""medicine_dosage"": ""5 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""FOLVITE"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089710""}, {""medicine_type"": ""capsule"", ""medicine_name"": ""VITAMIN B COMPLEX TAB"", ""medicine_dosage"": ""1 cap"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""B COMPLEX"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000102796""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""SHELCAL-HD TABLET 15'S, TORRENT"", ""medicine_dosage"": ""1 tab"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 2, ""raw_medicine_name"": ""SHELCAL HD"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000092285""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""VELOXIN TAB 25/50MG"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""ECOSPIRIN"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103396""}, {""medicine_type"": ""injection"", ""medicine_name"": ""COMPLETE-B12 TAB"", ""medicine_dosage"": """", ""medicine_frequency"": ""0-0-0"", ""dosage_advice"": ""monthly"", ""medicine_duration"": ""until next followup"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""B12"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000095967""}, {""medicine_type"": ""injection"", ""medicine_name"": ""INFLUVAC TETRA/FLUARIX TETRA"", ""medicine_dosage"": """", ""medicine_frequency"": ""0-0-0"", ""dosage_advice"": ""today"", ""medicine_duration"": ""0"", ""medicine_quantity"": 1, ""raw_medicine_name"": ""INFLUVAC TETRA/FLUARIX TETRA""}], ""labtests"": [{""matched"": ""CBC with ESR and PBF"", ""sku_code"": ""H6763"", ""match_confidence"": 0.7, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""CBC"", ""test_type"": ""blood test""}, {""matched"": ""Neonatal TSH"", ""sku_code"": ""C6581"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""TSH"", ""test_type"": ""blood test""}, {""matched"": ""URINE MICROSCOPY"", ""sku_code"": ""E6499"", ""match_confidence"": 0.88, ""match_reason"": ""token-subset-Lab"", ""test_name"": ""URINE ROUTINE MICROSCOPY"", ""test_type"": ""urine test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": ""Monitor sugar levels, report any problems with baby movements, discharge, bleeding, or leaking"", ""non-medical"": ""Protein rich diet""}, ""followup"": {""next_followup"": ""16/12/2024""}}",2025-06-20T15:06:26.166645,"G2P1+0 GIRL LSCS 6 YRS CPD GDM ON 7 TH MONTH HYPOTHYROID 3.0 KG
+
+LMP- 25.4.2024
+EDD:- 1.2.2025
+
+POG:-  31 WKS 2 DAYS
+
+MED HIST:- INJECTION NPH 11UNITS AT 10 PM TO CHECK FASTING IF MORE THAN 100 MG AFTER 7 DAYS INCREASE TO NPH 12 UNITS AT 10 PM FOR 5 DAYS IF AVERAGE GREATER 100 MG NPH 13UNITS 
+
+INJECTION FIASP 7 UNITS BEFORE BREAKFAST AFTER BREAKFAST MORE THAN130 MG INCREASE TO 8 UNITS 
+FIASP 6 UNITS BEFORE LUNCH
+FIAS 6 UNITS BEFORE DINNER 
+
+
+
+ON CONTINUED B12 INJECTION MONTHLY
+NIPT ADVANCED WNL
+DOUBLE MARKER SCREEN POSITIVE FOR 21
+NT NB SCAN WNL
+
+HB:- 6.7 RECEIVED IRON PARENTERAL in oct
+HB:- 11.4 IN AUGUST 2024
+HBA1C:- 5.5
+A+
+
+TT/ BOOSTERIX RECEIVED
+P/A-  32-34 WKS
+FHS+R144
+UTERUS RELAXED
+
+
+ADVICE
+
+DM MANAGEMENT ACCORDING TO DR AHLUWALIA MONITORING AND CONTROL
+
+BRING SUGAR DIARY AT VISIT
+
+
+TAB THYRONORM 112.5 MCG ONE TAB DAILY BEFORE BREAKFAST
+
+
+TAB OROFER XT ONE TAB  TWICE DAILY
+VIT C ONE TAB DAILY
+TAB FOLVITE 5 MG ONE TAB DAILY
+CAP B COMPLEX ONE CAP DAILY
+
+TAB SHELCAL HD ONE TAB TWICE A DAY
+TAB ECOSPIRIN 75 MG ONE TAB DAILY
+PROTEIN RICH DIET
+
+FLU VACCINATION DUE TODAY I.M. INFLUVAC TETRA FLUARIX TETRA
+
+
+
+TO COME WITH REPORTS AND SUGAR DIARY  ON 16/12/2024 
+
+CBC
+TSH
+URINE ROUTINE MICROSCOPY
+
+ANY PROBLEM IN BABY MOVEMENTS/ DISCHARGE PER VAGINUM/ BLEEDING/ LEAKING PER VAGINUM INFORM
+
+Dr Ila Jalote
+M.B.B.S. (Gold medallist), M.S. (Certificate of honour) ,MRCOG(UK),
+Fellowship of Minimal Access Surgery(Mumbai),
+Diploma of Minimal Access Surgery (Germany)
+Fellowship of Infertility
+Advanced ultrasound training(Mumbai)
+
+Timings ( Taking prior appointment is advisable to prevent waiting)
+Monday/WEDNESDAY 4-8 PM
+TUESDAY/THURSDAY/FRIDAY 10 AM TO 2 PM 
+SATURDAY 3PM ---7 PM
+        
+Ph :- 8527179943 ( Call only for emergencies/ For non urgent queries or appointment queries message/whatsapp)"
+APT-20250620-150808-3cc8bb,mr a,69.0,M,"{""patient"": {""name"": ""mr a"", ""age"": 69, ""gender"": ""M"", ""diagnosis"": ""Hives, Urticaria, Hypertension""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""DILNIP 10 MG TAB"", ""medicine_dosage"": ""5mg"", ""medicine_frequency"": ""0-0-0"", ""dosage_advice"": ""as SOS when SBP > 150"", ""medicine_duration"": ""20"", ""medicine_quantity"": ""unknown"", ""raw_medicine_name"": ""Dilnip"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000096258""}, {""medicine_type"": ""oral steroids"", ""medicine_name"": """", ""medicine_dosage"": """", ""medicine_frequency"": ""1-1-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""0"", ""raw_medicine_name"": """"}, {""medicine_type"": """", ""medicine_name"": ""CONIMUNE ME 100 CAP(CYCLOSPORINE)CONCORD"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-1-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": ""0"", ""raw_medicine_name"": ""Cyclosporine"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000111725""}], ""labtests"": [], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": ""Monitor BP regularly"", ""non-medical"": ""Home BP monitoring""}, ""followup"": {""next_followup"": ""after 20 days on MON/WED/FRI""}}",2025-06-20T15:08:08.437704,"""69, M mr a
+No risk factors
+No past cardiac history
+Hives, On Rx ?, Oral steroids for 2 months
+TMT: Negative at 100% THR and 8.2 Mets (July '24)
+
+Recent Rx with Cyclosporine for 2 months due to urticaria
+Stopped a month back after patient developed hypertensive episodes
+Notices occasional hypertensive episodes now also
+Frequently labile BP
+No other issues
+
+BP=124/80mmHg
+PR=74/min, reg
+
+RS: Clear
+
+Plan: Follow up
+
+Treatment:
+Home BP monitoring
+Tab Dilnip    5mg      SOS   (SBP>150)
+
+
+Follow up after 20 days
+MON/WED/FRI"""
+APT-20250620-151005-cc25af,,73.0,female,"{""patient"": {""name"": """", ""age"": 73, ""gender"": ""female"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""OXUBA OD TAB 600 MG"", ""medicine_dosage"": ""20 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""14"", ""medicine_quantity"": 14, ""raw_medicine_name"": ""C. Roza Gold"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103952""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""METOSARTAN 50 MG TAB"", ""medicine_dosage"": ""25 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""14"", ""medicine_quantity"": 14, ""raw_medicine_name"": ""T. Metosartan"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000097741""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PANTODAC-L TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""empty stomach"", ""medicine_duration"": ""14"", ""medicine_quantity"": 14, ""raw_medicine_name"": ""T. Pantodac"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000097120""}], ""labtests"": [], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T15:10:05.797311,"""73 yrs old lady has come with a h.o chest pain on & off since 2 months, burning sensation 
+IHD - s/p PCI to RCA - june 2024
+no h/o Type II DM /HTN
+o/e
+bp - 164/88 mm/hg
+pulse - 80/min
+Cardia - normal
+Lungs - clear
+adv
+ecg - Normal
+echo - No RWMA< Normal LV function,  ef 60%, Mild MR, trace tR, PASP normal - 2/12/24
+
+Rx
+C. Roza Gold 20 mg-0-----0----1
+T. Metosartan 25 mg 1------0------0
+T. Pantodac 40 mg 1------0------0 (empty stomach) x 2 weeks"""
+APT-20250620-151133-8a8f7d,,21.0,female,"{""patient"": {""name"": """", ""age"": 21, ""gender"": ""female"", ""diagnosis"": ""seizure""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""SERVACE AM TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Brivaracetam"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000092262""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""FRISIUM 5 MG TAB"", ""medicine_dosage"": ""5 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Frisium"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089783""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""LOBAZAM 5 MG TAB"", ""medicine_dosage"": """", ""medicine_frequency"": """", ""dosage_advice"": """", ""medicine_duration"": """", ""medicine_quantity"": 0, ""raw_medicine_name"": ""Clobazam"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000090518""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""BRITZILAM 50 MG TABLET 14S, TORRENT"", ""medicine_dosage"": ""50 mg"", ""medicine_frequency"": ""0-1-0"", ""dosage_advice"": """", ""medicine_duration"": """", ""medicine_quantity"": 0, ""raw_medicine_name"": ""Britzilam"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114983""}], ""labtests"": [], ""radiology"": [{""matched"": ""MRI brain"", ""sku_code"": ""DRAD6691"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Radiology"", ""test_name"": ""MRI brain"", ""test_type"": ""radiology""}], ""procedures"": [], ""precaution"": {""medical"": ""do not drive, do not swim, avoid heights"", ""non-medical"": ""sleep hygiene, meditation, relaxation techniques""}, ""followup"": {""next_followup"": ""after 2 months""}}",2025-06-20T15:11:33.375797,"""MRI BRAIN - NORMAL ( REPORTS - NOT ALL FILMS AVIALABLE)
+
+1 episode on 29.11.2024 - gtcs witnessed by friend
+brivaracetam was not increased tab clobazam was added
+
+
+21 year old lady
+History of first episode of seizure -2022- involuntary movements of all 4 limbs with clenching of teeth with stiffness of all 4 limbs lasting for 5 minutes . tongue bite +. no urinary incontinence no postictal confusion Lasting for 5 minutes- GTCS semiology
+6-7 episodes initially 2022 till 2023- GTCS semiology
+5.8.2023-- TAB BRITZILAM 50 MG BD was not taken- Got one episode
+From 6 months she has got around 4 episodes inspite of taking AEDs
+no myoclonic jerks or any other neurological symptoms
+
+The patient is conscious oriented obeys commands
+Cranial nerve examination - normal 
+Motor system - 
+Tone - normal
+Power - normal
+Reflexes- 2+
+Sensory system - normal
+no other neurodeficit
+21 year old lady
+History of first episode of seizure -2022- involuntary movements of all 4 limbs with clenching of teeth with stiffness of all 4 limbs lasting for 5 minutes . tongue bite +. no urinary incontinence no postictal confusion Lasting for 5 minutes- GTCS semiology
+6-7 episodes initially 2022 till 2023- GTCS semiology
+5.8.2023-- TAB BRITZILAM 50 MG BD was not taken- Got one episode
+From 6 months she has got around 4 episodes inspite of taking AEDs
+no myoclonic jerks or any other neurological symptoms
+
+The patient is conscious oriented obeys commands
+Cranial nerve examination - normal 
+Motor system - 
+Tone - normal
+Power - normal
+Reflexes- 2+
+Sensory system - normal
+no other neurodeficit
+
+
+RX --
+
+
+1.TAB BRIVARACETAM 75 MG ----0----75 MG TO CONTINUE
+
+2.TAB FRISIUM 5 MG     0---------0-------1 TO CONTINUE FOR 2 MONTHS
+
+
+Lifestyle modifications 
+
+Sleep hygiene
+do not drive , do not swim
+avoid heights
+Meditation , relaxation techniques 
+
+review after 2 months / sos
+ 
+ """
+APT-20250620-151344-0d847a,,47.0,female,"{""patient"": {""name"": """", ""age"": 47, ""gender"": ""female"", ""diagnosis"": ""breast pain and palpable mass""}, ""medicines"": [], ""labtests"": [{""matched"": ""FNAC SLIDES"", ""sku_code"": ""Y6383"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FNAC"", ""test_type"": ""lab test""}], ""radiology"": [{""matched"": ""MAMMOGRAM SCREENING"", ""sku_code"": ""DRAD8495"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Radiology"", ""test_name"": ""mammogram"", ""test_type"": ""radiology test""}, {""matched"": ""Breast Screening"", ""sku_code"": ""DRAD7719"", ""match_confidence"": 0.6167, ""match_reason"": ""jaccard-fuzzy-Radiology"", ""test_name"": ""breast scan"", ""test_type"": ""radiology test""}], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T15:13:44.768209,"""47YR OLD, P2L2, STERILIZED
+HAD PAIN IN BOTH BREAST SINCE 10-15DAYS
+PAIN MORE ON RIGHT SIDE
+LMP-6DAY BACK
+HAS BREAST PAIN DURING CYCLES ON AND OFF
+O/E- VITALS STABLE
+LEFT BREAST NORMAL
+RIGHT BREAST- PALPABLE MASS  IN UPPER INNER QUADRANT OF 6-7CM,  NON MOBILE WITH INVERTED NIPPLE
+SCAN BOTH BREAST -illdefined heterogenous area with mixed  post acoustic characteristix at 1-3 o clock position in upper puter quadrant of righ tbreastp birads-4b
+ right axillary lymphadenopathy+
+adv
+FNAC and mammogram"""
+APT-20250620-201530-d0bc34,mr xyz,66.0,M,"{""patient"": {""name"": ""mr xyz"", ""age"": 66, ""gender"": ""M"", ""diagnosis"": ""CHEST HEAVINESS ON EXERTION, POST PRANDIAL ANGINA""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""VELOXIN TAB 25/50MG"", ""medicine_dosage"": ""75/150 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""DEPLAT A"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103396""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""ROSULIP 20 MG TAB"", ""medicine_dosage"": ""20 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""ROSULIP"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000095531""}, {""medicine_type"": ""capsule"", ""medicine_name"": ""ANGISPAN-TR 6.5 MG CAP (25)"", ""medicine_dosage"": ""2.5"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""ANGISPAN TR"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000087921""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RANCAD 500 MG EXTENDED RELEASE TAB"", ""medicine_dosage"": ""500"", ""medicine_frequency"": ""1-1-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""RANCAD"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000097864""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROLOMET XL 25 MG TAB"", ""medicine_dosage"": ""25 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""PROLOMET XL"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091813""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""FLAVEDON MR 35 MG TAB"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-1-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""FLAVEDON MR"", ""match_confidence"": 0.93, ""match_reason"": ""name-prefix-match"", ""sku_code"": ""1000089641""}, {""medicine_type"": ""capsule"", ""medicine_name"": ""PANTOCID-DSR CAP"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""PANTOCID DSR"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-concat-exact"", ""sku_code"": ""1000091556""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PETRIL MD 0.25 MG TAB"", ""medicine_dosage"": ""0.25 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""PETRIL"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091658""}], ""labtests"": [{""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB"", ""test_type"": ""blood test""}, {""matched"": ""LDL Subfractions"", ""sku_code"": ""C6799"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""LDL"", ""test_type"": ""blood test""}, {""matched"": ""FT4(RANBAXY)"", ""sku_code"": ""C6916"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""LFT GASTRO"", ""sku_code"": ""C7100"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""LFT"", ""test_type"": ""blood test""}, {""matched"": ""SGOT ( Ast )"", ""sku_code"": ""C6658"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""SGOT"", ""test_type"": ""blood test""}, {""matched"": ""Neonatal TSH"", ""sku_code"": ""C6581"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""TSH"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [{""matched"": ""ECG"", ""sku_code"": ""DCAR6348"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECG"", ""procedure_type"": ""cardiac test""}, {""matched"": ""echo"", ""sku_code"": ""PCAR6350"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""ECHO"", ""procedure_type"": ""cardiac test""}, {""matched"": ""TMH - Anesthesia Fees - Grade VI"", ""sku_code"": ""PONS6842"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""TMT"", ""procedure_type"": ""cardiac test""}, {""matched"": ""PTCA"", ""sku_code"": ""PCAR6375"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""CAG"", ""procedure_type"": ""cardiac test""}, {""matched"": ""Nebulisation"", ""sku_code"": ""PHOM6385"", ""match_confidence"": 0.3478, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""REVASCULARIZATION"", ""procedure_type"": ""cardiac test""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""for CAG+/-REVASCULARIZATION""}}",2025-06-20T20:15:30.467537,"""66 YRS/M mr xyz
+C/O
+CHEST HEAVINESS ON EXERTION
+POST PRANDIAL ANGINA
+O/E-
+BP=112/70
+PR=62/MIN
+SPO2- 99%
+CVS- S1S2 N
+R/S- B/L AE N
+CNS- N
+19/10/2024- HB 13.5, LDL 156, KFT-N, LFT-N, SGOT 63, TSH-N
+ECG - q IN INFERIOR LEADS, ST Depressions in inferolateral Leads
+ECHO
+RWMA- BASAL INFERIOR WALL AND SEPTUM HYPOKINETIC
+LVEF=45-50%
+TRIVIAL MR, NO AR
+TRIVIAL TR, NO PAH
+NO PE, CLOT
+22/10/2024- TMT- POSITIVE FOR RMI
+ADVICE- CAG+/-REVASCULARIZATION
+TAB. DEPLAT A 75/150 MG ONE OD
+TAB. ROSULIP 20 MG ONE OD
+CAP ANGISPAN TR 2.5 TWICE DAILY (8AM/4PM)
+TAB RANCAD 500 TWICE DAILY
+TAB. PROLOMET XL 25 MG ONE OD
+TAB. FLAVEDON MR TWICE DAILY
+CAP. PANTOCID DSR ONE OD
+TAB. PETRIL 0.25 MG ONE HS
+REVIEW FOR CAG+/-REVASCULARIZATION"""
+APT-20250620-201719-959d62,Mr FGH,63.0,male,"{""patient"": {""name"": ""Mr FGH"", ""age"": 63, ""gender"": ""male"", ""diagnosis"": ""Severe Calcific AS, Type II DM, HTN""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""CILAHEART-T TAB (10) -MANKIND"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""T. Cilacar"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000107150""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""ROZUCOR 5 MG TAB"", ""medicine_dosage"": ""20 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": 0, ""medicine_quantity"": 0, ""raw_medicine_name"": ""T. Rozucor A"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000092126""}], ""labtests"": [{""matched"": ""CREATININE FLUID"", ""sku_code"": ""C7297"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""Creatinine"", ""test_type"": ""blood test""}], ""radiology"": [{""matched"": ""CT Scan Limbs With Contrast including Ctangiography"", ""sku_code"": ""DRAD7817"", ""match_confidence"": 0.5, ""match_reason"": ""jaccard-fuzzy-Radiology"", ""test_name"": ""CTCAG"", ""test_type"": ""CT scan""}], ""procedures"": [{""matched"": ""PTCA"", ""sku_code"": ""PCAR6375"", ""match_confidence"": 0.3333, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""TAVR/AVR"", ""procedure_type"": ""surgical procedure""}, {""matched"": ""echo"", ""sku_code"": ""PCAR6350"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Procedure"", ""procedure_name"": ""Echo"", ""procedure_type"": ""2D Echo""}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": """"}}",2025-06-20T20:17:19.139113,"""63 yrs old gentleman mr fgh has come with ah/o breathlessness o & off since 3-4 days
+k/c of Type II DM & HNT since 10 yrs on OHA
+o/e
+bp - 160.83 mm/hg
+pulse - 67/min
+Cardia - no S3/murmur
+Lungs - clear
+echo - no RWMA, Normal LV function, ef 60% Calcific AV severe AS AV gd 89 /58 mm/hg
+
+imp -Severe Calcific AS, Normal LV function, Type II DM/HTN
+
+adv
+CTCAG followed by TAVR/AVR
+Creat 0.7 29/11/24
+Rx
+T. Cilacar 10 mg 1----0---1
+T. Rozucor A 20 mg 0-----0-----1"""
+APT-20250620-202023-abc3e7,,0.0,Female,"{""patient"": {""name"": """", ""age"": 0, ""gender"": ""Female"", ""diagnosis"": ""MIGRAINE""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""BETACAP TR 20 MG CAP"", ""medicine_dosage"": ""20 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""90 days"", ""medicine_quantity"": 90, ""raw_medicine_name"": ""BETACAP TR"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000102282""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""NAXDOM 500 MG TAB"", ""medicine_dosage"": ""500 mg"", ""medicine_frequency"": ""SOS"", ""dosage_advice"": """", ""medicine_duration"": ""90 days"", ""medicine_quantity"": 0, ""raw_medicine_name"": ""NAXDOM"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091037""}], ""labtests"": [], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": ""KEEP YOUR FOOD TIMING REGULAR, AT LEAST 7 HRS OF CONTINIOUS NIGHT TIME SLEEP, DEEP BREATHING EXERCISES""}, ""followup"": {""next_followup"": ""90 days""}}",2025-06-20T20:20:23.612013,"""F/UP CASE OF MIGRAINE 
+
+
+RX -
+LIFE STYLE MODIFICATIONS :
+KEEP YOUR FOOD TIMING REGULAR
+AT LEAST 7 HRS OF CONTINIOUS NIGHT TIME SLEEP
+DEEP BREATHING EXERCISES
+
+IN LAST MONTH 2 DAYS HEADACHE 
+
+
+RX:
+TAB BETACAP TR 20 MG 1-0-0 X 90 DAYS
+ 
+TAB NAXDOM 500MG SOS FOR HEADACHE.
+
+
+FOLLOW UP AFTER 90 DAYS."""
+APT-20250620-202047-d65fb3,Mr Amazing,69.0,male,"{""patient"": {""name"": ""Mr Amazing"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-20T20:20:47.123416,"""69 yrs old gentleman mr amazing
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250620-202209-6480e1,Mr Amazing,69.0,male,"{""followup"": {""next_followup"": ""2 months""}, ""labtests"": [{""match_confidence"": 1, ""match_reason"": ""normalized-exact-Lab"", ""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""match_confidence"": 1, ""match_reason"": ""normalized-exact-Lab"", ""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""medicines"": [{""dosage_advice"": """", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""medicine_dosage"": ""75 mg"", ""medicine_duration"": 60, ""medicine_frequency"": ""1-0-0"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_quantity"": 60, ""medicine_type"": ""tablet"", ""raw_medicine_name"": ""Ecosprin"", ""sku_code"": ""1000089300""}, {""dosage_advice"": """", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""medicine_dosage"": ""90 mg"", ""medicine_duration"": 60, ""medicine_frequency"": ""1-0-1"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_quantity"": 120, ""medicine_type"": ""tablet"", ""raw_medicine_name"": ""Axcer"", ""sku_code"": ""1000114044""}, {""dosage_advice"": """", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""medicine_dosage"": ""3.125 mg"", ""medicine_duration"": 60, ""medicine_frequency"": ""1-0-1"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_quantity"": 120, ""medicine_type"": ""tablet"", ""raw_medicine_name"": ""Cardivas"", ""sku_code"": ""1000088470""}, {""dosage_advice"": """", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""medicine_dosage"": ""40 mg"", ""medicine_duration"": 60, ""medicine_frequency"": ""0-0-1"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_quantity"": 60, ""medicine_type"": ""tablet"", ""raw_medicine_name"": ""Aztor"", ""sku_code"": ""1000096868""}, {""dosage_advice"": """", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""medicine_dosage"": ""10 mg"", ""medicine_duration"": 60, ""medicine_frequency"": ""1-0-0"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_quantity"": 60, ""medicine_type"": ""tablet"", ""raw_medicine_name"": ""Udpa"", ""sku_code"": ""1000103776""}], ""patient"": {""age"": 69, ""diagnosis"": ""IHD"", ""gender"": ""male"", ""name"": ""Mr Amazing""}, ""precaution"": {""medical"": """", ""non-medical"": ""do not drink tea""}, ""procedures"": [], ""radiology"": [{""match_confidence"": 1, ""match_reason"": ""normalized-exact-Radiology"", ""matched"": ""MRI brain"", ""sku_code"": ""DRAD6691"", ""test_name"": ""MRI brain"", ""test_type"": ""imaging test""}]}",2025-06-20T20:22:09.378632,"""69 yrs old gentleman mr amazing
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+mri brain
+do not drink tea
+
+ """
+APT-20250620-215705-e67573,Viddesh,28.0,male,"{""patient"": {""name"": ""Viddesh"", ""age"": 28, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-20T21:57:05.813909,"""28 yrs old gentleman viddesh
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250621-105632-fbc5d6,Mr X,29.0,male,"{""patient"": {""name"": ""Mr X"", ""age"": 29, ""gender"": ""male"", ""diagnosis"": ""High risk Candidate / Stable CAD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""CORBIS-AM 5 MG TABLE 10'S, TORRENT"", ""medicine_dosage"": ""5 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Corbis-AM 5"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000120482""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RITALIN TAB 10MG"", ""medicine_dosage"": ""100 mg"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": ""after meal"", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Vildaglyn 100"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000106550""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""GEMER P2 TAB"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""at Breakfast"", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Gemer P2"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-concat-exact"", ""sku_code"": ""1000095832""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""DAPAGLYN S 10/100 TAB, 10'S, ZYDUS HEALT"", ""medicine_dosage"": """", ""medicine_frequency"": ""0-1-0"", ""dosage_advice"": ""at Lunch"", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Dapaglyn"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000122862""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""NITROCONTIN 2.6 MG TAB (25)"", ""medicine_dosage"": ""2.6 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Nitrocontin 2.6"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091194""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin 75"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RANOLAZ 500 MG TAB"", ""medicine_dosage"": ""500 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Ranolaz 500"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091911""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PRIMI-3590 TAB"", ""medicine_dosage"": ""35 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60 days"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Timzid 35"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000099812""}], ""labtests"": [], ""radiology"": [], ""procedures"": [{""matched"": ""PTCA"", ""sku_code"": ""PCAR6375"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""CAG"", ""procedure_type"": """"}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""after 2 months""}}",2025-06-21T10:56:32.101114,"""
+Mr X, 29, male
+
+Tab Corbis -AM 5= once daily
+Tab Vildaglyn 100= 1 tab twice ... Lunch & Dinner
+Tab Gemer P2= once daily at Breakfast
+Tab Dapaglyn...Lunch
+
+Tab Nitrocontin 2.6= 1 + 1
+Tab Ecosprin 75= once daily
+Tab Ranolaz 500= 1 + 1
+Tab Timzid 35= 1 + 1
+
+PLan ;  Review after 2 months and to plan for CAG
+
+High risk Candidate / Stable CAD
+ECG / ECHO= no abnormality"""
+APT-20250621-111804-3b87a9,Mr X,69.0,male,"{""patient"": {""name"": ""Mr X"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-21T11:18:04.012794,"""69 yrs old gentleman mr x
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250625-105432-1b670e,Mr e,27.0,male,"{""patient"": {""name"": ""Mr e"", ""age"": 27, ""gender"": ""male"", ""diagnosis"": ""High risk Candidate / Stable CAD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""CORBIS-AM 5 MG TABLE 10'S, TORRENT"", ""medicine_dosage"": ""5 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Corbis-AM 5"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000120482""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RITALIN TAB 10MG"", ""medicine_dosage"": ""100 mg"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": ""after meal"", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Vildaglyn 100"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000106550""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""GEMER P2 TAB"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""at Breakfast"", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Gemer P2"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-concat-exact"", ""sku_code"": ""1000095832""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""DAPAGLYN S 10/100 TAB, 10'S, ZYDUS HEALT"", ""medicine_dosage"": """", ""medicine_frequency"": ""0-1-0"", ""dosage_advice"": ""at Lunch"", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Dapaglyn"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000122862""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""NITROCONTIN 2.6 MG TAB (25)"", ""medicine_dosage"": ""2.6 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Nitrocontin 2.6"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091194""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin 75"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RANOLAZ 500 MG TAB"", ""medicine_dosage"": ""500 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Ranolaz 500"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091911""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PRIMI-3590 TAB"", ""medicine_dosage"": ""35 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Timzid 35"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000099812""}], ""labtests"": [], ""radiology"": [], ""procedures"": [{""matched"": ""PTCA"", ""sku_code"": ""PCAR6375"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""CAG"", ""procedure_type"": """"}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-25T10:54:32.483888,"""
+Mr e age 27 male
+
+Tab Corbis -AM 5= once daily
+Tab Vildaglyn 100= 1 tab twice ... Lunch & Dinner
+Tab Gemer P2= once daily at Breakfast
+Tab Dapaglyn...Lunch
+
+Tab Nitrocontin 2.6= 1 + 1
+Tab Ecosprin 75= once daily
+Tab Ranolaz 500= 1 + 1
+Tab Timzid 35= 1 + 1
+
+PLan ;  Review after 2 months and to plan for CAG
+
+High risk Candidate / Stable CAD
+ECG / ECHO= no abnormality"""
+APT-20250627-212735-95357b,Mr H,27.0,male,"{""patient"": {""name"": ""Mr H"", ""age"": 27, ""gender"": ""male"", ""diagnosis"": ""High risk Candidate / Stable CAD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""CORBIS-AM 5 MG TABLE 10'S, TORRENT"", ""medicine_dosage"": ""5 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Corbis-AM 5"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000120482""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RITALIN TAB 10MG"", ""medicine_dosage"": ""100 mg"", ""medicine_frequency"": ""0-1-1"", ""dosage_advice"": ""after meal"", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Vildaglyn 100"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000106550""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""GEMER P2 TAB"", ""medicine_dosage"": """", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""at Breakfast"", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Gemer P2"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-concat-exact"", ""sku_code"": ""1000095832""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""DAPAGLYN S 10/100 TAB, 10'S, ZYDUS HEALT"", ""medicine_dosage"": """", ""medicine_frequency"": ""0-1-0"", ""dosage_advice"": ""at Lunch"", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Dapaglyn"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000122862""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""NITROCONTIN 2.6 MG TAB (25)"", ""medicine_dosage"": ""2.6 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Nitrocontin 2.6"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091194""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin 75"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""RANOLAZ 500 MG TAB"", ""medicine_dosage"": ""500 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Ranolaz 500"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000091911""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PRIMI-3590 TAB"", ""medicine_dosage"": ""35 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Timzid 35"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000099812""}], ""labtests"": [], ""radiology"": [], ""procedures"": [{""matched"": ""PTCA"", ""sku_code"": ""PCAR6375"", ""match_confidence"": 0.4, ""match_reason"": ""jaccard-fuzzy-Procedure"", ""procedure_name"": ""CAG"", ""procedure_type"": """"}], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-27T21:27:35.856270,"""
+Mr h, 27 male
+
+Tab Corbis -AM 5= once daily
+Tab Vildaglyn 100= 1 tab twice ... Lunch & Dinner
+Tab Gemer P2= once daily at Breakfast
+Tab Dapaglyn...Lunch
+
+Tab Nitrocontin 2.6= 1 + 1
+Tab Ecosprin 75= once daily
+Tab Ranolaz 500= 1 + 1
+Tab Timzid 35= 1 + 1
+
+PLan ;  Review after 2 months and to plan for CAG
+
+High risk Candidate / Stable CAD
+ECG / ECHO= no abnormality"""
+APT-20250628-171321-17b9ab,,69.0,male,"{""patient"": {""name"": """", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 30, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 30, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-28T17:13:21.803040,"""69 yrs old gentleman
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250628-171336-32ad6c,Mr ABC,69.0,male,"{""patient"": {""name"": ""Mr ABC"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-28T17:13:36.574019,"""69 yrs old gentleman Mr ABC
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250628-225837-00edb6,YZ,28.0,male,"{""patient"": {""name"": ""YZ"", ""age"": 28, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-28T22:58:37.935012,"""28 yrs old gentleman YZ
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250628-230008-875e4a,YZ,28.0,male,"{""patient"": {""name"": ""YZ"", ""age"": 28, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""before lunch"", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-28T23:00:08.648829,"""28 yrs old gentleman YZ
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg once a day before lunch
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250628-230407-71ee37,YZ,28.0,male,"{""patient"": {""name"": ""YZ"", ""age"": 28, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": ""before lunch"", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": ""dont drink and smoke""}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-28T23:04:07.346112,"""28 yrs old gentleman YZ
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg once a day before lunch
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+dont drink and smoke
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250629-115706-32fd29,Mr X,69.0,male,"{""patient"": {""name"": ""Mr X"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-29T11:57:06.706018,"""69 yrs old gentleman Mr X
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250629-115750-b45c41,Mr X,69.0,male,"{""patient"": {""name"": ""Mr X"", ""age"": 69, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": ""before lunch"", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": 60, ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-29T11:57:50.401642,"""69 yrs old gentleman Mr X
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg once a day before lunch
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
+APT-20250629-212247-0ca359,Mr dfg,74.0,male,"{""patient"": {""name"": ""Mr dfg"", ""age"": 74, ""gender"": ""male"", ""diagnosis"": ""IHD""}, ""medicines"": [{""medicine_type"": ""tablet"", ""medicine_name"": ""ECOSPRIN 75 MG TAB"", ""medicine_dosage"": ""75 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Ecosprin"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000089300""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AXCER 90 MG TAB (180S) (TICAGRELOR),SUN"", ""medicine_dosage"": ""90 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Axcer"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000114044""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""CARDIVAS 3.125 MG TAB"", ""medicine_dosage"": ""3.125 mg"", ""medicine_frequency"": ""1-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 120, ""raw_medicine_name"": ""Cardivas"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000088470""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""AZTOR 40 MG TAB"", ""medicine_dosage"": ""40 mg"", ""medicine_frequency"": ""0-0-1"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Aztor"", ""match_confidence"": 0.95, ""match_reason"": ""strength-based-name-match"", ""sku_code"": ""1000096868""}, {""medicine_type"": ""tablet"", ""medicine_name"": ""PROVERA TABLET 10MG"", ""medicine_dosage"": ""10 mg"", ""medicine_frequency"": ""1-0-0"", ""dosage_advice"": """", ""medicine_duration"": ""60"", ""medicine_quantity"": 60, ""raw_medicine_name"": ""Udpa"", ""match_confidence"": 0.85, ""match_reason"": ""normalized-multistage-fuzzy"", ""sku_code"": ""1000103776""}], ""labtests"": [{""matched"": ""Lipid Profile"", ""sku_code"": ""C6561"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""Lipid profile"", ""test_type"": ""blood test""}, {""matched"": ""Glucose Fasting & Post Parandial(FBS&PPBS)"", ""sku_code"": ""C6884"", ""match_confidence"": 0.5833, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""FBS"", ""test_type"": ""blood test""}, {""matched"": ""HbA1c"", ""sku_code"": ""C7170"", ""match_confidence"": 1.0, ""match_reason"": ""normalized-exact-Lab"", ""test_name"": ""HBA1c"", ""test_type"": ""blood test""}, {""matched"": ""KIDNEY FUNCTION TEST EXTENDED"", ""sku_code"": ""C7737"", ""match_confidence"": 0.975, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""KFT"", ""test_type"": ""blood test""}, {""matched"": ""HB & ESR"", ""sku_code"": ""H6652"", ""match_confidence"": 0.75, ""match_reason"": ""jaccard-fuzzy-Lab"", ""test_name"": ""HB%"", ""test_type"": ""blood test""}], ""radiology"": [], ""procedures"": [], ""precaution"": {""medical"": """", ""non-medical"": """"}, ""followup"": {""next_followup"": ""2 months""}}",2025-06-29T21:22:47.739888,"""74 yrs old gentleman Mr dfg
+IHD s/p PCI to LAD (2.75 x35 Osiro) 27/11/24
+no comorbids
+f/h of IHD+ 3 out of 6 siblings have CAD
+has come for f/u
+o/e 
+Bp - 100/70 mm/hg
+pulse 65/min
+Cardia - normal
+Lungs - clear
+echo - RWMA+, ef 38%
+ecg - t inversion V1 V4
+echo - no RWMA, Normal LV function,  ef 60%, trace TR, PASP normal - 2/12/24
+Creat 1.27, K+ 4.2, NA+- 127, HB% 16.2 - 2/12/24
+
+Rx
+T. Ecosprin 75 mg 1-----0----0
+T. Axcer 90 mg 1------0------1
+T. Cardivas 3.125 mg 1-----0----1
+T. Aztor 40 mg 0-------0-------1
+T. Udpa 10 mg 1------0------0
+
+R/A 2 months with Lipid profile, FBS, HBA1c, KFT & HB%
+
+
+
+ """
