@@ -1,0 +1,1 @@
+web: gunicorn app_med_proc_v5:app
