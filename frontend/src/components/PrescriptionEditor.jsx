@@ -14,18 +14,34 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
   useEffect(() => {
     Promise.all([
       fetch('/medicine_sku_js.json').then(res => res.json()),
-      fetch('/lab_jsn.json').then(res => res.json()) // Converted version of your CSV
-    ]).then(([medicines, procedures]) => {
-      const combined = [...medicines.map(m => ({ ...m, type: 'medicine' })), ...procedures];
+      fetch('/lab_jsn.json').then(res => res.json())
+    ]).then(([medicinesRaw, proceduresRaw]) => {
+      const medicines = medicinesRaw.map(m => ({
+        ...m,
+        type: 'medicine',
+        label: m.medicine_desc
+      }));
+
+      const procedures = proceduresRaw
+        .map(p => {
+          const name = p.medicine_desc || '';
+          return name.trim() ? { ...p, type: 'procedure', label: name } : null;
+        })
+        .filter(Boolean);
+
+      const combined = [...medicines, ...procedures];
+
       setSkuList(combined);
       setFuse(new Fuse(combined, {
-        keys: ['medicine_desc'],
+        keys: ['label'],
         threshold: 0.3,
         ignoreLocation: true,
       }));
+
+      console.log('Loaded SKU list:', combined.map(e => e.label));
     });
   }, []);
-  
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dismissOnBlur && containerRef.current && !containerRef.current.contains(event.target)) {
@@ -38,7 +54,6 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
   }, [dismissOnBlur]);
 
   useEffect(() => {
-    // Scroll the highlighted suggestion into view
     if (highlightedIndex >= 0 && suggestionRefs.current[highlightedIndex]) {
       suggestionRefs.current[highlightedIndex].scrollIntoView({
         behavior: 'smooth',
@@ -58,7 +73,7 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
 
     if (lastWord.length >= 3 && fuse) {
       const results = fuse.search(lastWord).slice(0, 10);
-      setSuggestions(results.map(r => r.item.medicine_desc));
+      setSuggestions(results.map(r => r.item));
       setHighlightedIndex(-1);
       setHasNavigated(false);
     } else {
@@ -67,32 +82,35 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
     }
   };
 
-  const insertSuggestion = (sugg) => {
+  const insertSuggestion = (suggLabel) => {
     if (!textareaRef.current) return;
-
+  
     const textarea = textareaRef.current;
     const start = textarea.selectionStart;
     const end = textarea.selectionEnd;
-
+  
     const textBefore = text.substring(0, start);
     const textAfter = text.substring(end);
-
-    const words = textBefore.split(/\s+/);
-    const lastWord = words[words.length - 1];
-    const lastWordStart = textBefore.lastIndexOf(lastWord, start);
-
-    const newText = textBefore.slice(0, lastWordStart) + sugg + " " + textAfter;
-
+  
+    // Match last token containing letters/numbers/dash/space (more flexible)
+    const match = textBefore.match(/[\w\-]+$/);  // matches 'mri', 'paracet', etc.
+    const lastWord = match ? match[0] : '';
+    const lastWordStart = match ? start - lastWord.length : start;
+  
+    const newText = textBefore.slice(0, lastWordStart) + suggLabel + " " + textAfter;
+  
     setText(newText);
     setSuggestions([]);
     setHighlightedIndex(-1);
-
-    const newCursorPosition = lastWordStart + sugg.length + 1;
+  
+    const newCursorPosition = lastWordStart + suggLabel.length + 1;
     setTimeout(() => {
       textarea.focus();
       textarea.selectionStart = textarea.selectionEnd = newCursorPosition;
     }, 10);
   };
+  
+  
 
   const handleKeyDown = (e) => {
     if (suggestions.length === 0) return;
@@ -111,7 +129,7 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
       );
     } else if ((e.key === 'Enter' || e.key === 'Tab') && highlightedIndex >= 0 && hasNavigated) {
       e.preventDefault();
-      insertSuggestion(suggestions[highlightedIndex]);
+      insertSuggestion(suggestions[highlightedIndex].label);
     } else if (e.key === 'Escape') {
       setSuggestions([]);
       setHighlightedIndex(-1);
@@ -143,14 +161,15 @@ export default function PrescriptionEditor({ text, setText, height = 'h-52', dis
             <div
               key={i}
               ref={(el) => (suggestionRefs.current[i] = el)}
-              onClick={() => insertSuggestion(sugg)}
+              onClick={() => insertSuggestion(sugg.label)}
               className={`px-4 py-2 text-sm cursor-pointer border-b border-neutral-700 ${
                 i === highlightedIndex
                   ? 'bg-green-700 text-white font-semibold'
                   : 'text-green-100 hover:bg-green-600 hover:text-white'
               }`}
             >
-              {sugg}
+              {sugg.label}
+              <span className="ml-2 text-xs italic text-neutral-400">({sugg.type})</span>
             </div>
           ))}
         </div>
