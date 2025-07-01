@@ -29,7 +29,7 @@ dist-ssr
 # backend/.venv/
 # backend/venv/
 *.dylib
-*.npy
+# *.npy
 # *.faiss
 *.pt
 *.pth
