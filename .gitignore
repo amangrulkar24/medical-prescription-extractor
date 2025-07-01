@@ -1,5 +1,5 @@
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,64 +7,29 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependency directories
-node_modules/
-dist/
-dist-ssr/
-build/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Python virtual environments
-.venv/
-venv/
-backend/.venv/
-backend/venv/
-
-# Python artifacts
-__pycache__/
-*.py[cod]
-*.so
-*.dylib
-*.npy
-*.faiss
-*.pt
-*.pth
-*.egg-info/
-.eggs/
-pip-wheel-metadata/
-
-# Jupyter & test cache
-.ipynb_checkpoints/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Environment files
-.env
-.env.*
-backend/.env
-backend/.env.*
-
-# System & editor files
-.DS_Store
-.vscode/
+# Editor directories and files
+.vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# SQLite or local dev DBs
-*.sqlite3
-*.db
-
-# Local overrides
-*.local
-backend/faiss_cache*/
-backend/sku_index/
-backend/*.pkl
-frontend/public/*.json
-*.faiss
+# Ignore virtual environments and large generated files
+# .venv/
+# venv/
+# backend/.venv/
+# backend/venv/
+*.dylib
 *.npy
-*.csv
+# *.faiss
+*.pt
+*.pth
