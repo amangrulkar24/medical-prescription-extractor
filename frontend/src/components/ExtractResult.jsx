@@ -12,7 +12,8 @@ export default function ExtractResult({ result }) {
   const fetchSmartAdvice = async () => {
     setLoadingAdvice(true);
     try {
-      const res = await fetch("http://localhost:5000/smart_advice", {
+      const BASE_URL = import.meta.env.VITE_BACKEND_URL;
+      const res = await fetch(`${BASE_URL}/smart_advice`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
