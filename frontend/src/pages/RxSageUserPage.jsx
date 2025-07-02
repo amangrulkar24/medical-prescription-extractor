@@ -22,6 +22,7 @@ const RxSageUserPage = () => {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const { user } = useUser();
+  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -45,7 +46,7 @@ const RxSageUserPage = () => {
   const handleExtract = async () => {
     setLoading(true);
     try {
-      const res = await fetch('http://127.0.0.1:5000/extract', {
+      const res = await fetch(`${BASE_URL}/extract`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prescription: text })
