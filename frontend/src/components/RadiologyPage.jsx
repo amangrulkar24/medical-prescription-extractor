@@ -6,17 +6,18 @@ export default function RadiologyPage() {
   const [appointments, setAppointments] = useState([]);
   const { user } = useUser();
   const navigate = useNavigate();
+  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   useEffect(() => {
     const fetchAppointmentsWithDiagnostics = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:5000/appointments");
+        const res = await fetch(`${BASE_URL}/prescription/appointments`);
         const data = await res.json();
 
         const filteredAppointments = [];
         for (let appt of data) {
           try {
-            const presRes = await fetch(`http://127.0.0.1:5000/prescription/${appt.appointment_id}`);
+            const presRes = await fetch(`${BASE_URL}/prescription/prescription/${appt.appointment_id}`);
             const presData = await presRes.json();
             const json = presData.extracted;
 
