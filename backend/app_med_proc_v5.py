@@ -308,6 +308,11 @@ def update_prescription(appointment_id):
     df.to_csv(DATA_FILE, index=False)
     return jsonify({"message": "Updated successfully"})
 
+@app.route("/", methods=["GET"])
+@app.route("/health", methods=["GET"])
+def health_check():
+    return jsonify({"status": "ok"}), 200
+
 if __name__ == "__main__":
     print("✅ RxSage backend is running...")
     app.run(host="0.0.0.0", port=5000, debug=True)
