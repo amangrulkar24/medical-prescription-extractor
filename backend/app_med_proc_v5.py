@@ -9,7 +9,7 @@ from datetime import datetime
 import uuid
 import groq
 import pickle
-from matcher import validate_medicine_names, validate_group_terms
+from matcher_v2 import validate_medicine_names, validate_group_terms
 from dotenv import load_dotenv
 load_dotenv()
 
