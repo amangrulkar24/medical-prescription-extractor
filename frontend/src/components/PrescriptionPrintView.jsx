@@ -38,7 +38,7 @@ const PrescriptionPrintView = () => {
         setLoading(false);
       });
 
-     fetch(`${BASE_URL}/sku-list')
+     fetch(`${BASE_URL}/sku-list`)
       .then((res) => res.json())
       .then((list) => {
         setSkuList(list);
