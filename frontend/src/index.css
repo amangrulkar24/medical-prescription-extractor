@@ -2,24 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global RxSage Theme Customization */
-body {
-  @apply bg-gray-900 text-white;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: start;
+/* Global RxSage Theme */
+html {
+  font-size: 16px; /* base scaling */
+  height: 100%;
 }
 
-/* Zoom Wrapper */
-#root {
-  transform: scale(0.8);
-  transform-origin: top center;
-  width: 100vw;
-  height: auto;
+body {
+  @apply bg-gray-900 text-white;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  @apply text-green-400;
+}
+
+/* Table styling */
+table {
+  @apply text-sm w-full border-collapse;
+}
+
+/* Responsive padding & container */
+.container {
+  @apply px-4 sm:px-6 lg:px-8 mx-auto w-full max-w-7xl;
 }
