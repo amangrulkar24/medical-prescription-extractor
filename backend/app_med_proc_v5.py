@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 # === Setup ===
 app = Flask(__name__)
-CORS(app, origins=["https://rxsage-p7f81575f-atharvaprograms-gmailcoms-projects.vercel.app"], supports_credentials=True)
+CORS(app, origins="*")
 
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
