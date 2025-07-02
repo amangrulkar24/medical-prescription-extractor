@@ -89,7 +89,7 @@ const RxSageLandingPage = () => {
       </nav>
 
       <main className="flex-grow container mx-auto px-4 py-8 flex flex-col justify-center">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 min-h-[calc(100vh-160px)]">
           {/* Left Section: Tagline */}
           <div className={`text-center lg:text-left max-w-xl transition-opacity duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
             <h2 className={`text-4xl font-bold italic mb-4 ${darkMode ? 'text-green-300' : 'text-green-700'}`}>
