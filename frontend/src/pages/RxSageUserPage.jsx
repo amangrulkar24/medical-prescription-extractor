@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { 
   LogOut, 
-  Sun, 
-  Moon,
   Stethoscope,
   Radiation,
-  ShoppingBag
+  ShoppingBag,
+  Menu
 } from 'lucide-react';
 
 import PrescriptionEditor from '../components/PrescriptionEditor';
@@ -16,13 +15,12 @@ import RadiologyPage from '../components/RadiologyPage';
 import { useUser } from '../context/UserContext';
 
 const RxSageUserPage = () => {
-  const [darkMode, setDarkMode] = useState(true);
-  const [userType, setUserType] = useState(null); // initially null
+  const [collapsed, setCollapsed] = useState(false);
+  const [userType, setUserType] = useState(null);
   const [text, setText] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const { user } = useUser();
-  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -35,18 +33,16 @@ const RxSageUserPage = () => {
     } else {
       navigate('/dashboard?role=doctor', { replace: true });
     }
-
-    // clear result and input when role changes
     setResult(null);
     setText('');
   }, [location.search]);
 
-  const toggleDarkMode = () => setDarkMode(!darkMode);
+  const toggleSidebar = () => setCollapsed(!collapsed);
 
   const handleExtract = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${BASE_URL}/extract`, {
+      const res = await fetch('http://127.0.0.1:5000/extract', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prescription: text })
@@ -65,49 +61,51 @@ const RxSageUserPage = () => {
   };
 
   return (
-    <div className={`min-h-screen flex ${darkMode ? 'bg-black text-green-300' : 'bg-green-50 text-black'}`}>
+    <div className="min-h-screen flex bg-black text-green-300">
       {/* Sidebar */}
-      <div className={`w-64 p-4 ${darkMode ? 'bg-gray-900 border-r border-green-800' : 'bg-green-100 border-r border-green-200'} flex flex-col`}>
+      <div className={`${collapsed ? 'w-20' : 'w-64'} p-4 bg-gray-900 border-r border-green-800 flex flex-col transition-all duration-300`}>
         <div className="mb-8 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <img src="/logo.png" alt="RxSage Logo" className="w-10 h-10" />
-            <h1 className={`text-xl font-bold italic ${darkMode ? 'text-green-300' : 'text-green-700'}`}>RxSage</h1>
-          </div>
+          {!collapsed && (
+            <div className="flex items-center space-x-2">
+              <img src="/logo.png" alt="RxSage Logo" className="w-10 h-10" />
+              <h1 className="text-xl font-bold italic text-green-300">RxSage</h1>
+            </div>
+          )}
           <button 
-            onClick={toggleDarkMode} 
-            className={`p-2 rounded-full ${darkMode ? 'bg-gray-800 hover:bg-gray-700 text-green-300' : 'bg-green-200 hover:bg-green-300 text-black'}`}
+            onClick={toggleSidebar} 
+            className="p-2 rounded-full bg-gray-800 hover:bg-gray-700 text-green-300"
           >
-            {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            <Menu className="w-4 h-4" />
           </button>
         </div>
 
         <nav className="space-y-2">
           {[ 
-            { icon: <Stethoscope className={darkMode ? 'text-green-400' : 'text-green-600'} />, label: 'Doctors OPD', type: 'doctor' },
-            { icon: <ShoppingBag className={darkMode ? 'text-green-400' : 'text-green-600'} />, label: 'Pharmacy', type: 'pharmacist' },
-            { icon: <Radiation className={darkMode ? 'text-green-400' : 'text-green-600'} />, label: 'Diagnostics', type: 'radiology' }
+            { icon: <Stethoscope className="text-green-400" />, label: 'Doctors OPD', type: 'doctor' },
+            { icon: <ShoppingBag className="text-green-400" />, label: 'Pharmacy', type: 'pharmacist' },
+            { icon: <Radiation className="text-green-400" />, label: 'Diagnostics', type: 'radiology' }
           ].map((item) => (
             <button
               key={item.type}
               onClick={() => navigate(`/dashboard?role=${item.type}`)}
               className={`w-full flex items-center p-3 rounded-lg ${
                 userType === item.type 
-                  ? (darkMode ? 'bg-green-800 text-black' : 'bg-green-300') 
-                  : (darkMode ? 'hover:bg-gray-800 text-green-400 hover:text-green-300' : 'hover:bg-green-200')
+                  ? 'bg-green-800 text-black' 
+                  : 'hover:bg-gray-800 text-green-400 hover:text-green-300'
               }`}
             >
               {item.icon}
-              <span className="ml-2">{item.label}</span>
+              {!collapsed && <span className="ml-2">{item.label}</span>}
             </button>
           ))}
         </nav>
 
         <button 
           onClick={handleLogout}
-          className={`mt-auto flex items-center p-3 rounded-lg ${darkMode ? 'bg-red-900 hover:bg-red-800 text-green-300' : 'bg-red-100 hover:bg-red-200 text-red-600'}`}
+          className="mt-auto flex items-center p-3 rounded-lg bg-red-900 hover:bg-red-800 text-green-300"
         >
           <LogOut />
-          <span className="ml-2">Logout</span>
+          {!collapsed && <span className="ml-2">Logout</span>}
         </button>
       </div>
 
@@ -141,7 +139,7 @@ const RxSageUserPage = () => {
                 text={text}
                 setText={setText}
                 height="h-[300px]"
-                dismissOnBlur={true} // this enables dropdown to close on outside click
+                dismissOnBlur={true}
               />
             </div>
             <div className="text-center">
