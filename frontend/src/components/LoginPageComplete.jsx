@@ -48,7 +48,7 @@ export default function LoginPage() {
 
         <input
           type="password"
-          placeholder="Enter password"
+          placeholder="Enter 'default' as password"
           value={password}
           onChange={(e) => {
             setPassword(e.target.value);
