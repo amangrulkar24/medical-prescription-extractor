@@ -4,7 +4,7 @@
 
 /* Optional: container scale wrapper */
 #root {
-  transform: scale(0.8);
+  transform: scale(1);
   transform-origin: top center;
   width: 125%; /* 1 / 0.8 to compensate for scaling shrink */
   overflow-x: hidden;
