@@ -54,6 +54,7 @@ Given the diagnosis: {diagnosis} and the medicines: {med_list},
 Suggest:
 1. Precautions the patient should follow (separate into medical and non-medical).
 2. Follow-up advice (when the patient should return or retest, give medical test recommendation if relevant to diagnosis).
+3. Alert if any of the prescribed medicines are commonly associated with allergic reactions, and mention what symptoms to watch for.
 Respond in plain English.
 """
 
