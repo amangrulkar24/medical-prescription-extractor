@@ -11,13 +11,13 @@ export default function RadiologyPage() {
   useEffect(() => {
     const fetchAppointmentsWithDiagnostics = async () => {
       try {
-        const res = await fetch(`${BASE_URL}/prescription/appointments`);
+        const res = await fetch(`${BASE_URL}/appointments`);
         const data = await res.json();
 
         const filteredAppointments = [];
         for (let appt of data) {
           try {
-            const presRes = await fetch(`${BASE_URL}/prescription/prescription/${appt.appointment_id}`);
+            const presRes = await fetch(`${BASE_URL}/prescription/${appt.appointment_id}`);
             const presData = await presRes.json();
             const json = presData.extracted;
 
