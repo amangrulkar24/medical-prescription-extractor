@@ -97,7 +97,6 @@ rsa==4.9
 safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.13.1
-sentence-transformers==3.4.1
 setuptools==80.8.0
 six==1.17.0
 smmap==5.0.2
