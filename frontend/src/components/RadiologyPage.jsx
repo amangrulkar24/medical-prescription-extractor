@@ -9,31 +9,12 @@ export default function RadiologyPage() {
   const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   useEffect(() => {
-    const fetchAppointmentsWithDiagnostics = async () => {
+    const fetchAppointments = async () => {
       try {
         const res = await fetch(`${BASE_URL}/appointments`);
         const data = await res.json();
 
-        const filteredAppointments = [];
-        for (let appt of data) {
-          try {
-            const presRes = await fetch(`${BASE_URL}/prescription/${appt.appointment_id}`);
-            const presData = await presRes.json();
-            const json = presData.extracted;
-
-            const hasLab = Array.isArray(json.labtests) && json.labtests.length > 0 && json.labtests.some(t => t.test_name);
-            const hasRadiology = Array.isArray(json.radiology) && json.radiology.length > 0 && json.radiology.some(t => t.test_name);
-            const hasProcedures = Array.isArray(json.procedures) && json.procedures.length > 0 && json.procedures.some(p => p.procedure_name);
-
-            if (hasLab || hasRadiology || hasProcedures) {
-              filteredAppointments.push(appt);
-            }
-          } catch (e) {
-            console.error("Failed to load prescription for:", appt.appointment_id);
-          }
-        }
-
-        const sorted = filteredAppointments.sort(
+        const sorted = data.sort(
           (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
         );
         setAppointments(sorted);
@@ -42,8 +23,8 @@ export default function RadiologyPage() {
       }
     };
 
-    fetchAppointmentsWithDiagnostics();
-  }, []);
+    fetchAppointments();
+  }, [BASE_URL]);
 
   const handleClick = (appointmentId) => {
     window.open(`/radiology-detail/${appointmentId}`, "_blank");
