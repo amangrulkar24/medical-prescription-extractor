@@ -64,10 +64,9 @@ const RxSageLandingPage = () => {
       onClick: () => navigate('/dashboard?role=radiology')
     }
   ];
-  
 
   return (
-    <div className={`min-h-screen flex flex-col justify-between ${darkMode ? 'bg-black text-green-300' : 'bg-green-50 text-black'} transition-colors duration-300`}>
+    <div className={`min-h-screen flex flex-col ${darkMode ? 'bg-black text-green-300' : 'bg-green-50 text-black'} transition-colors duration-300`}>
       <nav className={`p-4 flex justify-between items-center ${darkMode ? 'bg-gray-900 border-b border-green-800' : 'bg-green-100 border-b border-green-200'}`}>
         <div className="flex items-center space-x-2">
           <img 
@@ -89,12 +88,12 @@ const RxSageLandingPage = () => {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 py-16 flex-grow">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
+      <main className="flex-grow container mx-auto px-4 py-8 flex flex-col justify-center">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           {/* Left Section: Tagline */}
-          <div className={`text-center lg:text-left max-w-lg transition-opacity duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
+          <div className={`text-center lg:text-left max-w-xl transition-opacity duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
             <h2 className={`text-4xl font-bold italic mb-4 ${darkMode ? 'text-green-300' : 'text-green-700'}`}>
-            Simplifying Clinical Workflows, Powered by AI
+              Simplifying Clinical Workflows, Powered by AI
             </h2>
             <div className={`text-xl space-y-4 leading-relaxed ${darkMode ? 'text-gray-400' : 'text-green-700'}`}>
               {animate && (
@@ -155,9 +154,9 @@ const RxSageLandingPage = () => {
         </div>
       </main>
 
-      <footer className="text-center text-sm py-4 border-t border-gray-600">
+      <footer className="text-center text-sm py-4 border-t border-gray-600 w-full">
         <p className="text-gray-400 italic">
-        This project was undertaken for Manipal Hospitals, India, in collaboration with the Indian Institute of Management Bangalore (IIMB) as part of the BAI-15 cohort.
+          This project was undertaken for Manipal Hospitals, India, in collaboration with the Indian Institute of Management Bangalore (IIMB) as part of the BAI-15 cohort.
         </p>
       </footer>
     </div>
