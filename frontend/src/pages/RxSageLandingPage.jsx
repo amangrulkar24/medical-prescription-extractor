@@ -66,7 +66,7 @@ const RxSageLandingPage = () => {
   ];
 
   return (
-    <div className={`min-h-screen flex flex-col ${darkMode ? 'bg-black text-green-300' : 'bg-green-50 text-black'} transition-colors duration-300`}>
+    <div className={`h-screen flex flex-col overflow-hidden ${darkMode ? 'bg-black text-green-300' : 'bg-green-50 text-black'} transition-colors duration-300`}>
       <nav className={`p-4 flex justify-between items-center ${darkMode ? 'bg-gray-900 border-b border-green-800' : 'bg-green-100 border-b border-green-200'}`}>
         <div className="flex items-center space-x-2">
           <img 
@@ -88,8 +88,8 @@ const RxSageLandingPage = () => {
         </div>
       </nav>
 
-      <main className="flex-grow container mx-auto px-4 py-8 flex flex-col justify-center">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 min-h-[calc(100vh-160px)]">
+      <main className="flex-grow container mx-auto px-4 flex items-center justify-center">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 w-full">
           {/* Left Section: Tagline */}
           <div className={`text-center lg:text-left max-w-xl transition-opacity duration-1000 ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
             <h2 className={`text-4xl font-bold italic mb-4 ${darkMode ? 'text-green-300' : 'text-green-700'}`}>
