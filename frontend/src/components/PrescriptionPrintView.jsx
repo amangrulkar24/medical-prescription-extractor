@@ -15,9 +15,10 @@ const PrescriptionPrintView = () => {
   const [saveMessage, setSaveMessage] = useState("");
   const [suggestions, setSuggestions] = useState({});
   const inputRefs = useRef({});
+  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/prescription/${appointmentId}`)
+    fetch(`${BASE_URL}/prescription/${appointmentId}`)
       .then((res) => res.json())
       .then((data) => {
         let extracted = data.extracted;
@@ -37,7 +38,7 @@ const PrescriptionPrintView = () => {
         setLoading(false);
       });
 
-    fetch('http://127.0.0.1:5000/sku-list')
+     fetch(`${BASE_URL}/sku-list')
       .then((res) => res.json())
       .then((list) => {
         setSkuList(list);
@@ -100,7 +101,7 @@ const PrescriptionPrintView = () => {
   };
 
   const handleSaveChanges = () => {
-    fetch(`http://127.0.0.1:5000/update-prescription/${appointmentId}`, {
+    fetch(`${BASE_URL}/update-prescription/${appointmentId}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ extracted: prescription, raw_text: rawText }),
