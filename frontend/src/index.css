@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Normalize zoom and font scaling */
+html, body {
+  zoom: 1;
+  font-size: 16px;
+}
+
 /* Global RxSage Theme Customization */
 body {
   @apply bg-gray-900 text-white;
