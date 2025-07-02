@@ -7,8 +7,10 @@ export default function PharmacyPage() {
   const { user } = useUser();
   const navigate = useNavigate();
 
+  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
+  
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/appointments")
+    fetch(`${BASE_URL}/appointments`)
       .then((res) => res.json())
       .then((data) => {
         const sorted = data.sort(
