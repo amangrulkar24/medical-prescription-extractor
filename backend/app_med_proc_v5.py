@@ -131,6 +131,7 @@ Use this exact format:
 
 Rules:
 - If no info found, return empty string or 0.
+- Recognize shorthand/abbreviated names like: "PCM", "Para 500", "Paracet DS" → "Paracetamol", "Aug", "Aug 625", "Clav" → "Amoxicillin-Clavulanate", "Azithro" → "Azithromycin" Return the mapped full name in "medicine_name" field.
 - medicine_type can be "tablet", "capsule", "syrup", "injection", "ointment", etc.
 - medicine_dosage should be in standard format like "5 mg", "10 ml", etc.
 - Convert 'OD', 'BD', 'TDS', 'QID' frequency to '1-0-0' format
