@@ -26,8 +26,9 @@ dist-ssr
 # Ignore virtual environments and large generated files
 .venv/
 venv/
-# backend/.venv/
-# backend/venv/
+backend/.venv/
+backend/venv/
+backend/.env/
 *.dylib
 # *.npy
 # *.faiss
