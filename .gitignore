@@ -24,8 +24,8 @@ dist-ssr
 *.sw?
 
 # Ignore virtual environments and large generated files
-# .venv/
-# venv/
+.venv/
+venv/
 # backend/.venv/
 # backend/venv/
 *.dylib
