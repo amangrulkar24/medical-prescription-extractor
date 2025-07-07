@@ -14,11 +14,12 @@ export default function ExtractResult({ result }) {
   const procedures = Array.isArray(result.procedures) ? result.procedures : [];
   const precaution = result.precaution || { medical: '-', 'non-medical': '-' };
   const followup = result.followup || { next_followup: '-' };
+  const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   const fetchSmartAdvice = async () => {
     setLoadingAdvice(true);
     try {
-      const res = await fetch("http://localhost:5000/smart_advice", {
+      const res = await fetch(`${BASE_URL}/smart_advice`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
