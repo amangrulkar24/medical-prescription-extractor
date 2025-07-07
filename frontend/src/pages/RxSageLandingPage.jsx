@@ -47,7 +47,7 @@ const RxSageLandingPage = () => {
   const features = [
     { 
       icon: <Stethoscope className={`w-10 h-10 mx-auto mb-2 ${darkMode ? 'text-green-400' : 'text-green-600'}`} />, 
-      title: 'Doctors OPD', 
+      title: "Doctor's OPD", 
       description: 'Write AI Powered Smart Prescriptions',
       onClick: () => navigate('/login/doctor')
     },
