@@ -82,7 +82,7 @@ const RxSageUserPage = () => {
 
         <nav className="space-y-2">
           {[ 
-            { icon: <Stethoscope className="text-green-400" />, label: 'Doctors OPD', type: 'doctor' },
+            { icon: <Stethoscope className="text-green-400" />, label: "Doctor's OPD", type: 'doctor' },
             { icon: <ShoppingBag className="text-green-400" />, label: 'Pharmacy', type: 'pharmacist' },
             { icon: <Radiation className="text-green-400" />, label: 'Diagnostics', type: 'radiology' }
           ].map((item) => (
