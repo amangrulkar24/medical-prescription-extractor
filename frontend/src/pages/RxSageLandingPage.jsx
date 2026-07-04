@@ -128,7 +128,7 @@ const RxSageLandingPage = () => {
 
       <footer className="text-center text-sm py-2 sm:py-4 border-t border-gray-600 w-full">
         <p className="text-gray-400 italic px-2">
-          This project was undertaken for Manipal Hospitals, India, in collaboration with the Indian Institute of Management Bangalore (IIMB) as part of the BAI-15 cohort.
+          This project was developed for Academic Purposes at IIM - Bangalore. Kindly Contact Atharva Mangrulkar for more information.
         </p>
       </footer>
     </div>
