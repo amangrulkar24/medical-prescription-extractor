@@ -128,7 +128,7 @@ const RxSageLandingPage = () => {
 
       <footer className="text-center text-sm py-2 sm:py-4 border-t border-gray-600 w-full">
         <p className="text-gray-400 italic px-2">
-          This project was developed for Academic Purposes at IIM - Bangalore. Kindly Contact Atharva Mangrulkar for more information.
+          This is an academic prototype developed at IIM Bangalore. For demonstrations or additional information, please contact Atharva Mangrulkar.
         </p>
       </footer>
     </div>
